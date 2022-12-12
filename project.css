@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin:0 20px 0 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar{
+    text-align: center;
+    display: flex;
+    
+}
+.logo{
+    margin-top: 10px;
+    height: 80px;
+}
+.navbar li{
+    padding-left: 30px;
+    list-style: none;
+    padding: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    height: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;;
+    background-color: rgb(66, 133, 244);
+    border-radius: 10px;
+    padding: 10px;
+}
+.navbar li a:hover{
+    font-size: 15px;
+    
+    color: white;
+
+}
+.marquee {
+    max-height: max-content;
+    height: 100%;
+    scroll-behavior:smooth;
+}
+.form{
+    width: 250px;
+    height: 460px;
+     background: linear-gradient(to top,  rgba(116, 187, 223, 0.8)50%,rgba(116, 187, 223, 0.8)50%); 
+    margin-top: 50px;
+    left: 10px;
+    border-style: groove;
+    padding: 40px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(31, 31, 29);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+}
+.form input{
+    width:200px;
+    height: 35px;
+    background: whitesmoke;
+    border-bottom: 3px solid transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.form a{
+    text-align: center;
+    color:  rgb(31, 31, 29);
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.ank{
+
+    border-radius: 10px;
+    margin-top: 1px;
+    background-color: blueviolet;
+    width: 225px;
+    padding: 55px;
+    background-color: rgba(4, 3, 3, 0.3);
+    height: 255px;
+}
+.ank p{
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: aqua;
+    padding: 12px;
+}
+.login input{
+     
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    width: 205px;
+
+}
+.button_div button{
+
+   
+/* padding: 8px; */
+font-size: 15px;
+text-align: center;
+border-radius: 10px;
+width: 125px;
+background-color: cornflowerblue;
+}
+
+.form1{
+    width: 290px;
+    height: 340px;
+    background: linear-gradient(to top, rgba(239, 240, 241, 0.8)50%,rgba(237, 239, 240, 0.8)50%);
+    top: 450px;
+    left: 1120px;
+    
+        border:  solid;
+        border-radius: 5px;
+      
+    padding: 50px;
+}
+.form1 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:white ;
+    background-color: rgb(66, 133, 244);
+    border-radius: 10px;
+    align-self: center;
+    padding: 8px;
+    
+}
+.form1 a{
+font-size: 20px;
+
+line-height: 70px;
+color: rgb(11, 7, 7);
+padding: 15px;
+border-bottom: 3px solid rgb(140, 198, 229);
+background: transparent;
+text-align: center;
+text-decoration: none;
+
+}
+.form1 a:hover{
+
+    /* color: white; */
+   font-size: 145%;
+}
+.scroll{
+    height: 400px;
+    width: 110px;
+    overflow: auto;
+    background-color: white;
+    color: rgb(66, 133, 244);
+    scrollbar-base-color: rgb(218, 32, 32);
+    padding: 20px;
+    margin-top: 80px;
+    
+    width: 700px;
+    
+    border-style: groove;
+} 
+.scroll .h2{
+    font-size: 27px;
+    text-align: center;
+    color: black;
+
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-main > *{
+    margin: 10px;
+}
+
+.scroll{
+    width: 60%;
+}
+
+.form1{
+    width: 35%;
+}
+
+footer{
+    padding: 50px;
+    color: black;
+    text-decoration-color: #fff;
+}
+
+footer p{
+    margin: 0px auto;
+    width: 150px;
+}
+
+
+.menu_links_list {
+    width: 80%;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    margin: 0px auto;
+    border: 1px solid #c8c8c8;
+    margin-top: 30px;
+    
+}
+
+.menu_links_list_head {
+    display: block;
+    font-size: 20px;
+    padding: 7px 10px;
+    background:rgb(66, 133, 244);
+    color: #fff !important;
+    margin: 0;
+    font-weight: normal;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+}
+
+    .menu_links_list_content {
+        padding: 0 0;
+        overflow: hidden;
+        min-height: 237px;
+        font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    }
+
+    ul.list_FAQ_menu {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+
+    ul.list_FAQ_menu li {
+        color: #696969;
+        font-size: 15px;
+        padding: 4px 10px;
+        line-height: 25px;
+        background:  no-repeat left 14px;
+    }
+    ul.list_FAQ_menu li a {
+        text-decoration: none;
+        color: #1e1e1e;
+    }
+
+    .menu_links_list1 {
+        width: 40%;
+        font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+        margin: 0px auto;
+        border: 1px solid #c8c8c8;
+        margin-top: 30px;
+    }
+
+    .menu_links_list_head1 {
+        display: block;
+        font-size: 20px;
+        padding: 7px 10px;
+        background: rgb(66, 133, 244);
+        color: #fff !important;
+        margin: 0;
+        font-weight: normal;
+        font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    }
+
+    .menu_links_list_content1 {
+        padding: 0 0;
+        overflow: hidden;
+        min-height: 237px;
+        font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+        line-height: 73px;
+        
+    }
+
+
+    ul.list_FAQ_menu1 {
+        margin: 0;
+        padding-left: 20px;
+        font-size: 145%;
+        cursor: pointer;
+    }
+
+
+    ul.list_FAQ_menu1 li {
+        color: #696969;
+        font-size: 15px;
+        padding: 4px 10px;
+        line-height: 60px;
+        background:  no-repeat left 14px;
+    }
+    ul.list_FAQ_menu1 li a {
+        text-decoration: none;
+        color: #1e1e1e;
+    }
+
+    footer{
+        background:black;
+        color: #fff;
+        
+    
+    }
+    
+    .image{
+        display: flex;
+        justify-content:left;
+    
+    }
+
+    .list_FAQ_menu li:hover{
+                
+        font-size: 145%;
+        cursor: pointer;
+    }
+
+    li:hover{
+
+        font-size: 145%;
+        cursor: pointer;
+    }
